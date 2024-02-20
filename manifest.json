@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "StefUNDOlis Server Mob Mod 1.9.1",
+        "description": "Custom entity behavior",
+        "uuid": "2ab6f7b9-ebce-4719-985c-2e89bd4ed5ac",
+        "version": [1, 2, 0],
+        "min_engine_version": [1, 20, 30]
+    },
+    "modules": [
+        {
+            "description": "Auch Creeper brennen bei Tageslicht, viele Mobs haben Angst vor Haustieren.",
+            "type": "data",
+            "uuid": "e3c3b9c1-9198-433a-826a-053c1070da30",
+            "version": [1, 9, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.5.0"
+        }
+    ]
+}
